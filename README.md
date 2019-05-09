@@ -1,11 +1,12 @@
-#Setting Up Prometheus
+# Setting Up Prometheus
 
 We will be creating:
-•	A metrics namespace for our environment to live in
-•	A ClusterRole to give Prometheus access to targets using Service Discovery
-•	A ConfigMap map that will be used to generate the Prometheus config file
-•	A Prometheus Deployment and Service
-•	Kube State Metrics to get access to metrics on the Kubernetes API
+
+- A metrics namespace for our environment to live in
+- A ClusterRole to give Prometheus access to targets using Service Discovery
+- A ConfigMap map that will be used to generate the Prometheus config file
+- A Prometheus Deployment and Service.
+- Kube State Metrics to get access to metrics on the Kubernetes API
 
 You can clone the YAML files form Github. (https://github.com/linuxacademy/content-kubernetes-prometheus-env)  
 
